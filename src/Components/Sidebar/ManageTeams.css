@@ -1,0 +1,9 @@
+.custom-data-grid .MuiDataGrid-columnHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom-data-grid .MuiDataGrid-sortIcon {
+    visibility: visible !important;
+    opacity: 1 !important;
+}

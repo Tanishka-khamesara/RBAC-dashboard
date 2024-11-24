@@ -1,0 +1,42 @@
+.sidebar{
+
+    height:100vh;
+   
+    padding: 1%;
+    /* border: 2px solid red; */
+}
+.topper{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    color:White;
+}
+
+.sidebar ul li{
+    list-style-type: none;
+    color: white;
+    
+}
+@media (max-width: 380px) {
+   .toShow ul li span{
+    display: none;
+       
+        text-align: center;
+   }
+   .toShow ul li  i {
+    margin-left: -40px;
+    
+}
+.sidebar h3{
+    font-size: 14px;
+    margin-left: 0%;
+    padding: 0%;
+}
+}

@@ -1,0 +1,13 @@
+@media (max-width: 380px) {
+    .chart{
+        width:10%;
+    }
+    .salebox{
+        width:10%;
+        padding: 0%;
+        line-height: 0px;
+    }
+    .progress{
+      
+    }
+}

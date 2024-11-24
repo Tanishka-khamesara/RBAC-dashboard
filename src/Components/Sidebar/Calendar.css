@@ -1,0 +1,46 @@
+/* Calendar.css */
+
+.calendar-container {
+    margin: 20px;
+  }
+  
+  .calendar-header {
+    font-size: 24px;
+  }
+  
+  .calendar-text {
+    font-size: 16px;
+  }
+  
+  .calendar-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .sidebar {
+    flex: 1 1 20%;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  .events-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .event-item {
+    margin: 10px 0;
+    background-color: #87537e; /* Green */
+    border-radius: 2px;
+    padding: 10px;
+  }
+  
+  .event-title {
+    font-weight: bold;
+  }
+  
+  .calendar {
+    flex: 1 1 100%;
+    margin-left: 15px;
+  }
+  
