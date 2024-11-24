@@ -14,7 +14,7 @@ function Sidebar() {
         <div class="sidebar" >
             <div class="topper">
                 <button onClick={() => { navigate("/SignUp") }} style={{backgroundColor:"#3da58a",padding:"10px",marginLeft:"120px"}}>{name}</button>
-                {/* <h3>Tanishka Khameshara</h3> */}
+               
             </div>
             <div className='toShow'>
                 <ul>
